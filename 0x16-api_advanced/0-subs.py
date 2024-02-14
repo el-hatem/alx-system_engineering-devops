@@ -2,8 +2,8 @@
 """
 number of subscribers for a given subreddit
 """
-import sys
 from requests import get
+import sys
 
 
 def number_of_subscribers(subreddit):
